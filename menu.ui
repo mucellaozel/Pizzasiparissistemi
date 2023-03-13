@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>836</width>
+    <height>287</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(54, 54, 54);</string>
+  </property>
+  <widget class="QComboBox" name="pTuru">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>80</y>
+     <width>125</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Sade Pizza - 20 TL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Klasik Pizza - 25 TL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Margarita Pizza - 30 TL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Türk Pizza - 40 TL</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="sTuru">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>130</y>
+     <width>125</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Soğan - 2 TL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mısır - 3 TL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Zeytin - 5 TL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Keçi Peyniri - 8 TL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mantar - 12 TL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Et - 15 TL</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="pizzaTuru">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Pizza Türü</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sos">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Sos</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fiyatSorgula">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Fiyat Sorgula</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="odemeSayfasi">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>220</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Ödeme Sayfası</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="lastTable">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>80</y>
+     <width>521</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Pizza Türü</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Sos</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Ürün Açıklaması</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Ödenecek Tutar</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>10</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>PİZZA SİPARİŞ MENÜSÜ</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
